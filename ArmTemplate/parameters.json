@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "artdevsf"
+        },
+        "clusterLocation": {
+            "value": "eastus"
+        },
+        "computeLocation": {
+            "value": "eastus"
+        },
+        "adminUserName": {
+            "value": "AdiThakker"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "nicName": {
+            "value": "NIC-artdevsf"
+        },
+        "publicIPAddressName": {
+            "value": "artdevsf-PubIP"
+        },
+        "dnsName": {
+            "value": "artdevsf"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-artdevsf"
+        },
+        "lbName": {
+            "value": "LB-artdevsf"
+        },
+        "lbIPName": {
+            "value": "LBIP-artdevsf"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdgartdevsf4073"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogsartdevsf2591"
+        },
+        "sourceVaultValue": {
+            "value": "/subscriptions/a13c5533-2083-47de-82dd-ff3d37196b1a/resourceGroups/ArtDevSfResources/providers/Microsoft.KeyVault/vaults/eastus-ArtDevSfkeyvault"
+        },
+        "certificateUrlValue": {
+            "value": "https://eastus-artdevsfkeyvault.vault.azure.net:443/secrets/ArtDevSfCert/08fd6ab046d94ef4829ed244477febef"
+        },
+        "certificateThumbprint": {
+            "value": "A7A81F28FA078036CC2F0A79F0AAE666E0E24A76"
+        },
+        "reverseProxyCertificateThumbprint": {
+            "value": "A7A81F28FA078036CC2F0A79F0AAE666E0E24A76"
+        },
+        "reverseProxyCertificateUrlValue": {
+            "value": "https://eastus-artdevsfkeyvault.vault.azure.net:443/secrets/ArtDevSfCert/08fd6ab046d94ef4829ed244477febef"
+        },
+        "vmImageSku": {
+            "value": "2016-Datacenter"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt0reverseProxyEndpointPort": {
+            "value": 19081
+        }
+    }
+}

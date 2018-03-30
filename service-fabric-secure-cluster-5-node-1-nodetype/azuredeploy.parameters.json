@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName": {
+      "value": ""
+    },
+	"Location": {
+            "value": "eastus"
+        },
+    "adminUsername": {
+      "value": ""
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "certificateThumbprint": {
+      "value": ""
+    },
+    "sourceVaultResourceId": {
+      "value": ""
+    },
+    "certificateUrlValue": {
+      "value": ""
+    },
+	"certificateStoreValue" : {
+			"value": "My"
+	},
+	"aadTenantId": {
+            "value": ""
+    },
+	"aadClusterApplicationId": {
+            "value": ""
+    },
+        "aadClientApplicationId": {
+            "value": ""
+    }
+  }
+}
